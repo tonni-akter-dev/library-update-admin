@@ -1,0 +1,51 @@
+
+.myForm{
+    width: 70%;
+    box-shadow: 2px 3px 22px 5px rgba(106,120,120,0.66);
+-webkit-box-shadow: 2px 3px 22px 5px rgba(106,120,120,0.66);
+-moz-box-shadow: 2px 3px 22px 5px rgba(106,120,120,0.66);
+}
+.myForm select, .myForm input{
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.category{
+    width: 100% !important;
+    border: 1px solid white;
+    padding: 5px 0;
+    color: white;
+    font-weight: normal !important;
+}
+
+
+.myForm input::placeholder { 
+    color: rgba(223, 218, 218, 0.462);
+  
+  }
+
+.myForm .form-label{
+    margin: 0;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* reg a user classes */
+.reguserInput{
+    width: 100% !important;
+    
+}
+
+
+
+
+@media (max-width: 575.98px) { 
+    .myForm{
+        width: 80%;
+    }
+ }
